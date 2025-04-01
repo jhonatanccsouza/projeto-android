@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fontes/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+:root{
+
+    --cor01: #ffff;
+    --cor02: #a5cbfe;
+    --cor03: #619ef3;
+    --cor05: #366ab2;
+    --cor06: #111418;
+
+
+    --fonte-destaque: Bebas;
+    --fonte-padrao: Arial, Verdana ,Helvetica, sans-serif;
+    --fonte-android: android;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
