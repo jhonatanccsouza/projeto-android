@@ -8,23 +8,39 @@
     <title>Contato - Jhonatan</title>
 </head>
 <body>
-    <h1>Envie um e-mail para nós</h1>
+   
     <section>
-        <h2>Contato</h2>
-        <form action="" method="post">
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
-            <label>E-mail</label>
-            <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off">
-            <label>Mensagem</label>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-
-           
-            <button type="submit">Enviar</button>
-
-            <input type="hidden" name="apiKey" value="sf_6jdbgb7155bfg1gm6kak96ka">
-            <input type="hidden" name="redirectTo" value="file:///C:/Users/jccso/OneDrive/Documentos/GitHub/projeto-android/obrigado.html">
-        </form>
+        <h2>Fale Conosco</h2>
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+        
+        <input type="hidden" name="apiKey" value="sf_6jdbgb7155bfg1gm6kak96ka">
+        
+        <input type="hidden" name="replyTo" value="@">
+        
+        <input
+          type="text"
+          name="honeypot"
+          style="display: none"
+          tabindex="-1"
+          autocomplete="off"
+        >
+        
+        
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required placeholder="Digite seu nome" autocomplete="off">
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Digite seu email" >
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required placeholder="Digite a sua mensagem" autocomplete="off"></textarea>
+        
+        <div class="g-recaptcha" data-sitekey="6LdgeAYrAAAAAKBaqsa8ZSdZIEIH4w9XHe4v0rRS"></div>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        
+        <input type="hidden" name="redirectTo" value="https://jhonatanccsouza.github.io/projeto-android/obrigado.html">
+        <button type="submit">Enviar Mensagem</button>
+          </form>
     </section>
 </body>
 </html>
