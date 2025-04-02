@@ -135,21 +135,4 @@ main{
     justify-content: center;
 }
 
-picture.coluna{
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    flex-direction: column;
-}
 
-img{
-    border: 2px solid black;
-    padding: 12px;
-    margin: 10px;
-    height: 181px;
-}
-
-img#android{
-    height: 174px;
-    padding: 130px 0px;
-}
