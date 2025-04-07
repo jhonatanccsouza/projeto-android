@@ -44,7 +44,7 @@ header{
     padding: 10px;
     color: white;
     padding-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
    
     font-family: var(--fonte-destaque);
 
@@ -133,6 +133,38 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+main strong{
+    color: #111418;
+}
+main a{
+    background-color: #bfdbff85;
+    padding: 3px;
+    text-decoration: none;
+    color: #1c375e;
+    font-weight: bold;
+    
+}
+
+main h1{
+    font-family: var(--fonte-destaque);
+    margin-top: 3px;
+    color: #0e1b2ee7;
+    text-align: center;
+    background-image: linear-gradient(to right, #6eadffc3, transparent );
+    font-size: 36px;
+}
+main h2{
+    font-family: var(--fonte-destaque);
+    font-size: 28px;
+    padding: 5px;
+    color: #142742cb;
+}
+main h3{
+    font-family: var(--fonte-destaque);
+   font-size: 20px;
+    padding: 5px;
+    color: #142742cb;
 }
 
 
