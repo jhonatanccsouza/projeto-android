@@ -37,10 +37,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background-color: #0d1d33;
     font-family: var(--fonte-destaque);
-    max-height: 500px;
+    max-height: 100vh;
 }
 section{
     display: flex;
