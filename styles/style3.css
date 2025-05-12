@@ -130,9 +130,9 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
     border-radius: 2px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+main > section{
+    display: inline-block;
 }
 main strong{
     color: #111418;
@@ -166,5 +166,36 @@ main h3{
     padding: 5px;
     color: #142742cb;
 }
+main ul{
+    list-style-position: inside;
+    margin: 10px;
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
 
+}
+
+main ul li{
+    margin: 5px;
+}
+p{
+    margin: 5px;
+}
+div.video{
+    border: 5px solid var(--cor03);
+    margin: 0px -10px 30px -10px;
+    padding: 5px;
+    padding-bottom: 40%;
+    max-width: 1001px;
+    
+
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    width: 56%;
+    height: 76%;
+
+}
 
