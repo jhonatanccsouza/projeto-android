@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 @font-face {
     font-family: android;
     src: url(../fontes/idroid.otf);
@@ -222,3 +224,30 @@ div.video > iframe{
 
 }
 
+
+
+main section{
+    border: 3px solid var(--cor03);
+    height: 192px;
+}
+.aimg{
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.5s all;
+}
+
+.aimg:hover{
+    border-radius: 5px;
+}
+.imgcontainer{
+    
+    position: relative;
+    padding: 0px;
+}
+.imgconteudo{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}

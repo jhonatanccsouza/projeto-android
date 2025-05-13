@@ -171,10 +171,11 @@ aside > p{
 aside ul{
     list-style-position: inside;
     
+    
 }
 
 aside li{
-    margin: 5px ;
+    margin: 5px;
     list-style-type: '\2714\00A0\00A0';
 }
 footer{
