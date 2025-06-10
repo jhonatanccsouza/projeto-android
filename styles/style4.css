@@ -64,14 +64,14 @@ header > p{
     margin: 5px;
     margin-bottom: 10px;
 }
-header > nav > a{
+header > menu > a{
     color: #a5cbfe;
     text-decoration: none;
     margin: 10px;
     margin-right: 15px;
     
 }
-header > nav > section > a{
+header > menu > section > a{
     color: #a5cbfe;
     text-decoration: none;
     margin: 10px;
@@ -79,19 +79,19 @@ header > nav > section > a{
     
     
 }
-header > nav > a:hover{
+header > menu > a:hover{
     background-color: #6882a098;
     padding: 5px;
     border-radius: 3px;
     
 }
-header > nav > section > a:hover{
+header > menu > section > a:hover{
     background-color: #6882a098;
     padding: 5px;
     border-radius: 3px;
     
 }
-header > nav > section > ul > a{
+header > menu > section > ul > a{
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -99,8 +99,8 @@ header > nav > section > ul > a{
     
     
 }
-header > nav > section > ul > a > li:hover{
-    color: #b4c5b6fb;
+header > menu > section > ul > a > li:hover{
+    color: #c6dcfa;
     padding: 5px;
     
     
@@ -126,13 +126,15 @@ header section{
     display: inline;
     
 }
-header section>.oculto{
+header section > p > .oculto{
     display: none;
 }
-header section:hover > .oculto{
-    display: inline;
+header section:hover > p > .oculto{
+    display: inline-block;
     max-width: 140px;
+    list-style-type: none;
     list-style-position: inside;
+    text-decoration: none;
     padding: 10px;
     
     color: var(--cor01);

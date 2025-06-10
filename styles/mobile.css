@@ -1,0 +1,41 @@
+@charset "UTF-8";
+:root{
+    --cor01: #f5f5f5;
+    --cor02: #a5cbfe;
+    --cor03: #619ef3;
+    --cor05: #366ab2;
+    --cor06: #111418;
+
+
+    --fonte-destaque: Bebas;
+    --fonte-padrao: Arial, Verdana ,Helvetica, sans-serif;
+    --fonte-android: android;
+
+
+
+}
+
+
+#burguer{
+    cursor: pointer;
+}
+menu#burguermenu{
+    display: none;
+    
+}
+
+header {
+    position: relative;
+}
+header menu{
+    position: absolute;
+}
+header > menu > section{
+    text-align: center;
+    width: 90vw;
+    padding: 5px;
+    
+    display: block;
+    background: var(--cor06);
+
+}
