@@ -215,17 +215,23 @@ main a{
 
 a.aimg{
     background-color: transparent;
+    width: min-content;
 }
 section.imgcontainer{
     display: block;
     margin: auto;
     border: 2px solid var(--cor02);
-    height: 25vh;
-    width: 450px;
     
+    width: 295px;
+    
+}
+
+section.imgcontainer > h1{
+    font-size: 24px;
 }
 p.imgconteudo{
     
     text-align: center;
     
 }
+

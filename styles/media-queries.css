@@ -30,7 +30,7 @@
     menu#burguermenu{
         position: static;
         display: block;
-        width: 100vw;
+        width: 99vw;
     }
     header > menu > section{
         display: inline;
@@ -46,6 +46,20 @@
         display: inline-block;
         width: auto;
         
+    }
+
+    main{
+        max-width: 768px;
+        margin: auto;
+    }
+
+    section.imgcontainer > h1 {
+        font-size: 36px;
+        
+
+    }
+    section.imgcontainer{
+        width: 450px;
     }
     
     
@@ -67,7 +81,7 @@
     menu#burguermenu{
         position: static;
         display: block;
-        width: 100vw;
+        width: 99vw;
     }
     header > menu > section{
         display: inline;
@@ -132,6 +146,19 @@
         width: 100px;
         left: 13%;
         background: #111418;
+    }
+
+    main{
+        max-width: 768px;
+        margin: auto;
+    }
+
+    section.imgcontainer > h1 {
+        font-size: 36px;
+
+    }
+    section.imgcontainer{
+        width: 450px;
     }
 
 
@@ -150,7 +177,7 @@
     menu#burguermenu{
         position: static;
         display: block;
-        width: 100vw;
+        width: 99vw;
     }
     header > menu > section{
         display: inline;
@@ -215,6 +242,19 @@
         width: 100px;
         left: 13%;
         background: #111418;
+    }
+
+    main{
+        max-width: 768px;
+        margin: auto;
+    }
+
+    section.imgcontainer > h1 {
+        font-size: 36px;
+
+    }
+    section.imgcontainer{
+        width: 450px;
     }
     
 }
