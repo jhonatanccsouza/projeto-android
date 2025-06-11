@@ -136,4 +136,86 @@
 
 
 }
+
+@media screen and (min-width: 1000px) {
+    #burguer{
+        display: none;
+
+    }
+
+    header{
+        position: static;
+    }
+
+    menu#burguermenu{
+        position: static;
+        display: block;
+        width: 100vw;
+    }
+    header > menu > section{
+        display: inline;
+        background: transparent;
+    }
+
+    header > menu > section#ex, section#dsf{
+        display: inline-block;
+        width: auto;
+        
+    }
+    header > menu > section#dsf{
+        display: inline-block;
+        width: auto;
+        
+    }
+
+    section#ex{
+        position: relative;
+    }
+
+     section#ex > p{
+        position: absolute;
+        background-color: #111418;
+        width: 200px;
+        top: 25px;
+        left: -50%;
+    }
+    
+    section#ex > p > a:hover {
+        color: #c6dcfa;
+        padding: 5px;
+    }
+
+    section#dsf{
+        position: relative;
+
+    }
+
+    section#dsf > p {
+        position: absolute;
+        background-color: #111418;
+        width: 200px;
+        top: 25px;
+        left: -50%;
+        
+    }
+
+    section#dsf > p > a:hover{
+        
+        color: #c6dcfa;
+        padding: 5px;
+
+    }
+    
+    section#crshtml{
+        position: relative;
+        
+    }
+   section > ul.menuhover{
+        position: absolute;
+        width: 100px;
+        left: 13%;
+        background: #111418;
+    }
+    
+}
     

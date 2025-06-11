@@ -168,124 +168,64 @@ header section:hover > p > .oculto{
     color: var(--cor01);
     
 }
-header nav section .oculto:hover{
-    background-color: transparent;
-    color: #b4bcc5fb;
-    padding: 5px;
-    border-radius: 3px;
+
+header section > p > .oculto:hover{
+    color: #c6dcfa;
+    
 }
 
-
-main{
-    min-width: 250px;
-    max-width: 1000px;
+main {
     background-color: var(--cor01);
-    margin: auto;
-    
     padding: 10px;
-    margin-top: 0px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
-    border-radius: 2px;
-
-}
-
-main strong{
-    color: #111418;
-}
-main a{
-    background-color: #bfdbff85;
-    padding: 3px;
-    text-decoration: none;
-    color: #1c375e;
-    font-weight: bold;
-    
 }
 
 main h1{
-    font-family: var(--fonte-destaque);
-    margin-top: 3px;
-    color: #0e1b2ee7;
+    background-image: linear-gradient(to right, var(--cor02) 20%, var(--cor01));
+    padding: 2px;
+    font: bold 35px var(--fonte-destaque);
+    color: #111418;
     text-align: center;
-    background-image: linear-gradient(to right, #6eadffc3, transparent );
-    font-size: 22px;
+    margin-bottom: 5px;
+
 }
+
 main h2{
-    font-family: var(--fonte-destaque);
-    font-size: 28px;
-    padding: 5px;
-    color: #142742cb;
+    color: #294f85e7;
+    font: bold 28px var(--fonte-destaque);
 }
+
 main h3{
-    font-family: var(--fonte-destaque);
-   font-size: 20px;
-    padding: 5px;
-    color: #142742cb;
+    color: #294f85e7;
+    font: bold 22px var(--fonte-destaque);
 }
-main ul{
-    list-style-position: inside;
-    margin: 10px;
-    font-family: var(--fonte-destaque);
-    font-size: 18px;
+
+main p {
+    font: normal 18px var(--fonte-padrao);
+    line-height: 25px;
+}
+
+main a{
+    background-color: #bfdbff85;
+    padding: 4px;
+    text-decoration: none;
+    color: #1c375e;
+    font-weight: bold;
 
 }
 
-main ul li{
-    margin: 5px;
-}
-p{
-    margin: 5px;
-}
-div.video{
-    border: 5px solid var(--cor03);
-    margin: 0px -10px 30px -10px;
-    padding: 5px;
-    padding-bottom: 40%;
-    max-width: 1001px;
-    
-
-    position: relative;
-}
-div.video > iframe{
-    position: absolute;
-    top: 12%;
-    left: 22%;
-    width: 56%;
-    height: 76%;
-
-}
-
-
-
-main section{
-    border: 3px solid var(--cor03);
-    height: 192px;
-}
-.aimg{
+a.aimg{
     background-color: transparent;
-    padding: 0px;
-    margin: 0px;
-    transition: 0.5s all;
 }
-
-.aimg:hover{
-    border-radius: 5px;
-}
-.imgcontainer{
+section.imgcontainer{
+    display: block;
+    margin: auto;
+    border: 2px solid var(--cor02);
+    height: 25vh;
+    width: 450px;
     
-    position: relative;
-    padding: 0px;
 }
-.imgconteudo{
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 375px) {
-
-    main h1 {
-        font-size: 26px;
-    }
+p.imgconteudo{
+    
+    text-align: center;
     
 }

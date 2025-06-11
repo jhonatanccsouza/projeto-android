@@ -6,16 +6,66 @@
     <title>Como surgiu o mascote do Android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
-<body>
+<body onresize="monitorTamanho()">
     <header>
-        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <h1>Curiosidades de tecnologia</h1>
+        
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+    
+        <menu id="burguermenu" onmousemove="mousedentro()" onmouseout="mousesai()">
+            
+            <section><a href="index.html">Home</a></section>
+            
+            <section><a href="contato.html">Contato</a></section>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#secundario">Notícias</a>
-            <a href="contato.html">Contato</a>
-        </nav>
+            <section><a href="curiosidades.html">Curiosidades</a></section>
+
+            <section id="ex">
+                <a href="#">Exercícios</a>
+                <p>
+                    <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/exercicios">Códigos - GitHub</a>
+                    <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/exercicios/">Sites - GitHub Pages</a>
+                </p>
+            </section>
+
+            <section id="dsf">
+                <a href="#">Desafios</a>
+                <p>
+                    <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/desafios">Códigos - GitHub</a>
+                    <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/desafios/">Sites - GitHub Pages</a>
+                </p>
+            </section>
+            <section id="crshtml">
+                <a href="#">Curso de HTML5 e CSS3</a>
+                <ul class="menuhover">
+                    <a href="modulos/modulo1.html" target="_blank">
+                        <li>Módulo 1</li>
+                    </a>
+                    <a href="modulos/modulo2.html" target="_blank">
+                        <li>Módulo 2</li>
+                    </a>
+                    <a href="modulos/modulo3.html" target="_blank">
+                        <li>Módulo 3</li>
+                    </a>
+                    <a href="modulos/modulo4.html" target="_blank">
+                        <li>Módulo 4</li>
+                    </a>
+                    <a href="modulos/modulo5.html" target="_blank">
+                        <li>Módulo 5</li>
+                    </a>
+                </ul>
+            </section>
+
+
+        </menu>
+
+        
     </header>
     <main>
         <article>
@@ -157,6 +207,8 @@
         </p>
         
     </footer>
+
+    <script src="javascript/script1.js"></script>
     
 </body>
 </html>

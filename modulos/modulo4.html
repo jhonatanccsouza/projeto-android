@@ -5,31 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Módulo 4</title>
     <link rel="stylesheet" href="../styles/style4.css">
+    <link rel="stylesheet" href="../style/mobile.css">
+    <link rel="stylesheet" href="../styles/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
 </head>
-<body>
+<body onresize="monitorTamanho()">
     <header>
         <h1>Aprendendo HTML</h1>
         <p>Site com os exercicios propostos por Gustavo Guanabara professor do CursoemVideo no curso de HTML5 e CSS3 para o aluno Jhonatan Correia colocar em prática</p>
-        <nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
     
-            <a href="#sobre">Sobre</a>
+        <menu id="burguermenu" onmousemove="mousedentro()" onmouseout="mousesai()">
             
-            <a href="contato.html">Contato</a>
+            <section><a href="#sobre">Sobre</a></section>
+            
+            <section><a href="../contato.html">Contato</a></section>
 
-            <a href="curiosidades.html">Curiosidades</a>
+            <section><a href="../curiosidades.html">Curiosidades</a></section>
 
-            <section>
+            <section id="ex">
                 <a href="#">Exercícios</a>
-                <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/exercicios">Códigos</a>
-                <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/exercicios/">Sites</a>
+                <p>
+                    <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/exercicios">Códigos - GitHub</a>
+                    <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/exercicios/">Sites - GitHub Pages</a>
+                </p>
             </section>
 
-            <section>
+            <section id="dsf">
                 <a href="#">Desafios</a>
-                <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/desafios">Códigos</a>
-                <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/desafios/">Sites</a>
+                <p>
+                    <a class="oculto" href="https://github.com/jhonatanccsouza/html-css/tree/main/desafios">Códigos - GitHub</a>
+                    <a class="oculto" href="https://jhonatanccsouza.github.io/html-css/desafios/">Sites - GitHub Pages</a>
+                </p>
             </section>
-            <section>
+            <section id="crshtml">
                 <a href="#">Curso de HTML5 e CSS3</a>
                 <ul class="menuhover">
                     <a href="modulos/modulo1.html" target="_blank">
@@ -51,7 +63,7 @@
             </section>
 
 
-        </nav>
+        </menu>
 
         
     </header>
@@ -79,5 +91,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zHKHMmEG9vE?si=vJzXbVeA536At4Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </main>
+
+    <script src="../javascript/script1.js"></script>
 </body>
 </html>
