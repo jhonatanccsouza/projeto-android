@@ -266,10 +266,9 @@ p.imgconteudo{
 }
 
 @media screen and (min-width: 568px) and (orientation: landscape) {
-    #burguer{
-        display: block;
+    menu > section > a {
+        font-size: 12px;
     }
-
     
 }
 
