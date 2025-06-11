@@ -1,5 +1,8 @@
  function monitorTamanho(){
-    if(window.innerWidth >= 768) {
+    if(screen.orientation.type == "landscape-primary" && window.innerWidth == 568){
+        document.body.header.style.position == 'static'
+
+    }else if(window.innerWidth >= 768 ) {
 
         document.body.header.style.position = 'relative'
         

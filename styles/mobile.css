@@ -182,10 +182,11 @@ main {
 main h1{
     background-image: linear-gradient(to right, var(--cor02) 20%, var(--cor01));
     padding: 2px;
-    font: bold 35px var(--fonte-destaque);
+    font: bold 30px var(--fonte-destaque);
     color: #111418;
     text-align: center;
     margin-bottom: 5px;
+    
 
 }
 
@@ -213,6 +214,28 @@ main a{
 
 }
 
+main ul{
+    font: bold 20px var(--fonte-destaque);
+    margin: 15px 0px;
+    list-style-position: inside;
+}
+
+div.video{
+    background-color: var(--cor02);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 55%;
+
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 a.aimg{
     background-color: transparent;
     width: min-content;
@@ -232,6 +255,21 @@ section.imgcontainer > h1{
 p.imgconteudo{
     
     text-align: center;
+    
+}
+
+@media screen and (min-width: 375px) {
+    main h1 {
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (min-width: 568px) and (orientation: landscape) {
+    #burguer{
+        display: block;
+    }
+
     
 }
 
