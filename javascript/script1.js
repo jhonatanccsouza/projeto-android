@@ -1,12 +1,14 @@
  function monitorTamanho(){
 
-    var logo = document.getElementsByClassName('logo')
+    
+
     if(window.innerWidth >= 768 ) {
 
         document.getElementById('menuburguer').style.position = 'relative'
         
-    }
+    } 
 
+    
 
 
     

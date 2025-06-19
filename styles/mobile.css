@@ -178,7 +178,8 @@ header section:hover > p > .oculto{
     max-width: 140px;
     list-style-type: none;
     list-style-position: inside;
-    text-decoration: none;    padding: 10px;
+    text-decoration: none;    
+    padding: 10px;
     
     color: var(--cor01);
     
@@ -273,15 +274,8 @@ p.imgconteudo{
     
 }
 
-@media screen and (min-width: 375px) {
-    main h1 {
-        font-size: 35px;
-    }
-    
-}
-
-@media screen and (min-width: 568px) and (orientation: landscape) {
-    menu > section > a {
+@media screen and (orientation: landscape) and (max-width: 575px) {
+    header > menu section > a{
         font-size: 12px;
     }
     
