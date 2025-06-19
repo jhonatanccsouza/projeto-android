@@ -11,8 +11,15 @@
 </head>
 <body onresize="monitorTamanho()">
     <header>
-        <h1>Aprendendo HTML</h1>
-        <p>Site com os exercicios propostos por Gustavo Guanabara professor do CursoemVideo no curso de HTML5 e CSS3 para o aluno Jhonatan Correia colocar em prática</p>
+       <a href="../index.html">
+            <picture>
+                <source media="(max-width: 322.40px)" srcset="../imagens/logo-com-nome-295px.png" type="image/png">
+                <img src="../imagens/logo-com-nome-350px.png" alt="" class="logo">
+            
+            </picture>
+        </a>
+        
+        <p>Potencializando Ideias, Impusionando negócios</p>       
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </span>
@@ -93,7 +100,13 @@
         <div class="video">
             <iframe width="360" height="115" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=lBNgxILW7jwpvoP5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+
+        <div class="botao">
+            <a class="acesse" href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">Acesse o Curso</a>
+        </div>
     </main>
+
+    
 
     <script src="../javascript/script1.js"></script>
 </body>

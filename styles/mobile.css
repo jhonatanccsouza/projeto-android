@@ -80,7 +80,7 @@ header {
     position: relative;
 }
 
-header > picture{
+header picture{
     display: block;
     width: max-content;
     margin: auto;
@@ -272,6 +272,28 @@ p.imgconteudo{
     
     text-align: center;
     
+}
+
+div.botao{
+    display: block;
+    margin: auto;
+    width: max-content;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #1c375e;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.455) ;
+}
+div.botao:hover {
+    background-color: #1c385eba;
+}
+div.botao > a.acesse {
+    background: transparent;
+    display: block;
+    color: #f5f5f5;
+    font-size: 28px;
+    width: 300px;
+    padding: 10px;
+
 }
 
 @media screen and (orientation: landscape) and (max-width: 575px) {
