@@ -117,7 +117,7 @@ main#pg2{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 75vh;
     background: #0d1d33;
     flex-direction: column;
     
