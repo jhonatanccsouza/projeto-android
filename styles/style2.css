@@ -118,6 +118,7 @@ main#pg2{
     align-items: center;
     justify-content: center;
     min-height: 75vh;
+    max-height: 100vh;
     background: #0d1d33;
     flex-direction: column;
     

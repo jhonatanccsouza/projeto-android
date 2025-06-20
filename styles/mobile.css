@@ -196,6 +196,7 @@ header section > p > .oculto:hover{
 main {
     background-color: var(--cor01);
     padding: 10px;
+    text-align: justify;
 }
 
 main h1{
