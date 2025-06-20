@@ -81,7 +81,7 @@ header {
 }
 
 header picture{
-    display: block;
+    display: none;
     width: max-content;
     margin: auto;
 }
@@ -97,7 +97,10 @@ header > menu > section{
     background: var(--cor06);
 
 }
-
+ header a {
+    color: #f5f5f5;
+    text-decoration: none;
+ }
 
 
 header > menu > a{
