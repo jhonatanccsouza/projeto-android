@@ -24,7 +24,7 @@
     }
 
     header{
-        position: static;
+        position: relative;
     }
 
     menu#burguermenu{
@@ -36,16 +36,20 @@
         display: inline;
         background: transparent;
     }
+    
 
-    header > menu > section#ex, section#dsf{
-        display: inline-block;
-        width: auto;
+
+
+    
+    section#crshtml{
+        position: relative;
         
     }
-    header > menu > section#dsf{
-        display: inline-block;
-        width: auto;
-        
+   section > ul.menuhover{
+        position: absolute;
+        width: 100px;
+        left: 13%;
+        background: #111418;
     }
 
     main{
@@ -88,7 +92,7 @@
         background: transparent;
     }
 
-    header > menu > section#ex, section#dsf{
+    header > menu > section#ex{
         display: inline-block;
         width: auto;
         

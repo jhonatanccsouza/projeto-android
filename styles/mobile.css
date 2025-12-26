@@ -118,6 +118,13 @@ header > menu > section > a{
     
     
 }
+header > menu > section > p{
+    color: #a5cbfe;
+    text-decoration: none;
+     
+    
+    
+}
 header > menu > a:hover{
     background-color: #6882a098;
     padding: 5px;
@@ -161,6 +168,15 @@ header section:hover > ul{
     
 }
 
+header section:hover > p.oculto{
+    display: block;
+    max-width: 140px;
+    list-style-position: inside;
+    padding: 10px;
+    transition: all 0.5s;
+    
+}
+
 header section#ex , header section#dsf{
     height: 20px;
 }
@@ -169,22 +185,30 @@ header section{
     display: inline;
     
 }
-header section > p > .oculto{
+header section > p.oculto{
     display: none;
 }
 
 header section#ex:hover , header section#dsf:hover {
     height: 75px;
 }
-header section:hover > p > .oculto{
+
+
+header > section:hover > p.oculto{
+    text-align: center;
     display: inline-block;
-    max-width: 140px;
-    list-style-type: none;
-    list-style-position: inside;
-    text-decoration: none;    
+    width: 350px;
+    
+    text-decoration: none;  
     padding: 10px;
     
     color: var(--cor01);
+    
+}
+
+header section > p.oculto{
+    text-align: center;
+    
     
 }
 
